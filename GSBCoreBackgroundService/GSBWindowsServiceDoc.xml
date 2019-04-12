@@ -1,0 +1,67 @@
+<doc>
+    <members name="gsb">
+	<GSBService>
+	    <summary>
+		    Classe GSBService. 
+			Permet d'exécuter le script principal en arrière plan de manière asynchrone
+			comme un service Windows.
+		</summary>
+	</GSBService>
+	<Main>
+	    <summary>
+		    Gère le comportement de l'application en fonctione du mode de lancement.
+			Si l'application est lancée en mode debug : affichage dans la console.
+			Sinon lancement de l'application en mode service en arrière plan.
+		</summary>
+	</Main>
+	<FileWriterService>
+	    <summary>
+		    Cette classe implémente IHostedService et une fois enregistré, sera déclenché et arrêté par le IHost. 
+		</summary>
+	</FileWriterService>
+	<PATH>
+	    <summary>
+		    Constante contenant le chemin vers un fichier de log qui n'est initialisé que par la méthode Execute non appelée sauf volontairement en modifiant le code.
+		</summary>
+	</PATH>
+	<actualDate>
+	    <summary>
+		    Contient la date d'aujourd'hui.
+		</summary>
+	</actualDate>
+	<process>
+	    <summary>
+		    Instance de la classe process qui contiendra le fichier .exe à lancer.
+		</summary>
+	</process>
+	<StartAsync>
+	    <summary>
+		    Lancement du script de manière asynchrone.
+		</summary>
+		<param name="cancellationToken">Notification qu'une opération doit être annulée.</param>
+		<returns>Tâche dont le statut est à "Terminée avec succès".</returns>
+	</StartAsync>
+	<Execute>
+        <summary>
+		    Utile pour débug si jamais soucis de lancement distant de la gestion des clôtures GSB.
+		</summary>
+	</Execute>
+	<ExecuteTask>
+	    <summary>
+		    Exécute le fichier .exe de l'application GestionClotureGSB.
+		</summary>
+	</ExecuteTask>
+	<StopAsync>
+	    <summary>
+		    Termine l'application asynchrone en arrière plan en fermant le processus en cours.
+		</summary>
+		<param name="cancellationToken">Notification qu'une opération doit être annulée.</param>
+	    <returns>Tâche dont le statut est "Terminée avec succès".</returns>
+	</StopAsync>
+	<Dispose>
+	    <summary>
+		    Permet de libérer les ressources.
+		</summary>
+	</Dispose>
+	</members>
+</doc>

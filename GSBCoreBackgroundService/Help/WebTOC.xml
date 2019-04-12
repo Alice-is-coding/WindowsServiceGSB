@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="95abaafb-817b-46db-a20e-9d6dad0da27d" Title="GenericHostSample" Url="html/713e0258-b53a-9fd6-7c03-5b78e0a55677.htm">
+    <HelpTOCNode Id="9fea9c60-927f-4abb-bbde-3af7fd8c9e0b" Title="ServiceBaseLifetime Classe" Url="html/b921c803-76ff-af05-5ad6-7d8cc55cf573.htm">
+      <HelpTOCNode Title="ServiceBaseLifetime Constructeur " Url="html/19551cb3-5324-787a-c427-3b63e70b902b.htm" />
+      <HelpTOCNode Id="e44d0acf-2ea3-4729-83ff-888c258f03e6" Title="ServiceBaseLifetime Propri&#233;t&#233;s" Url="html/23b03db7-d56d-c654-621f-cee321cf385e.htm">
+        <HelpTOCNode Title="ApplicationLifetime Propri&#233;t&#233; " Url="html/d1382df6-cfef-6bb4-f50f-ef471546800e.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="90f3dbfe-4c10-49ae-aeac-93ada09c1e4d" Title="ServiceBaseLifetime M&#233;thodes" Url="html/c806132a-4bc5-5063-dd45-5edf67e5d41b.htm">
+        <HelpTOCNode Title="OnStart M&#233;thode " Url="html/257fcab0-5e16-14dc-3dec-b794774f527a.htm" />
+        <HelpTOCNode Title="OnStop M&#233;thode " Url="html/b2c7503a-2af5-f1f4-451d-c574e6edb5e8.htm" />
+        <HelpTOCNode Title="Run M&#233;thode " Url="html/d3fd73ed-afea-20b4-c6dd-14998d5b5909.htm" />
+        <HelpTOCNode Title="StopAsync M&#233;thode " Url="html/7ebf1b07-b6ac-9326-06c7-3204d0ddddd5.htm" />
+        <HelpTOCNode Title="WaitForStartAsync M&#233;thode " Url="html/e0b06439-9550-b7fc-01b2-ceed42db8240.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1b553891-d1f8-43df-a66b-24276012377b" Title="ServiceBaseLifetimeHostExtensions Classe" Url="html/3bfeaa8c-a67b-8f92-bdd0-26e2fdd727f3.htm">
+      <HelpTOCNode Id="f889486e-d8b6-48e9-80b6-1aed72b4a754" Title="ServiceBaseLifetimeHostExtensions M&#233;thodes" Url="html/dc72d5c4-d6dc-c4e6-389f-1d07383173ad.htm">
+        <HelpTOCNode Title="RunAsServiceAsync M&#233;thode " Url="html/3f0efae9-9ccc-53b0-1d49-2e0014d41284.htm" />
+        <HelpTOCNode Title="UseServiceBaseLifetime M&#233;thode " Url="html/ab9bf60f-cc69-14df-0d0d-7a316d767890.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="c985142d-6720-4b08-adfc-76c6a690f0ed" Title="GSBCoreBackgroundService" Url="html/52759473-0683-52aa-d10c-431204b6679e.htm">
+    <HelpTOCNode Id="078dd06c-4860-4b0c-a23b-d4988276ad2c" Title="FileWriterService Classe" Url="html/9d0dc79e-6592-135b-b53b-3de25a7cc840.htm">
+      <HelpTOCNode Title="FileWriterService Constructeur " Url="html/e96af8bd-6fd9-d298-6a71-697e0eac5e73.htm" />
+      <HelpTOCNode Title="FileWriterService Constructeur " Url="html/58b3b50b-4339-954c-e0b5-c9feff66d906.htm" />
+      <HelpTOCNode Id="b306162d-1852-46bb-b4d1-2b0673b1f381" Title="FileWriterService M&#233;thodes" Url="html/04b7c5cc-3381-39e8-e039-d77a423ed897.htm">
+        <HelpTOCNode Title="Dispose M&#233;thode " Url="html/d95bae7e-56a5-fb78-b842-e9bcfc95bfa4.htm" />
+        <HelpTOCNode Title="Execute M&#233;thode " Url="html/6b527961-f208-15f3-fed2-35042d0eb9eb.htm" />
+        <HelpTOCNode Title="ExecuteTask M&#233;thode " Url="html/2e6a82ad-6601-f268-8bd7-5ba735046e77.htm" />
+        <HelpTOCNode Title="StartAsync M&#233;thode " Url="html/0d30630a-a463-438a-0592-09e376f6118e.htm" />
+        <HelpTOCNode Title="StopAsync M&#233;thode " Url="html/394828bc-c6f4-9540-f8bd-43cc83158618.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e5217128-d532-4b0a-9df0-878b64814b9c" Title="GSBService Classe" Url="html/d3caec5e-42ed-f1b1-f999-e1641b366354.htm">
+      <HelpTOCNode Title="GSBService Constructeur " Url="html/e8d92ac2-1b7b-7876-9cba-4f63c51ffbe5.htm" />
+      <HelpTOCNode Id="894930a7-c630-41bb-b575-a13ce113cb5d" Title="GSBService M&#233;thodes" Url="html/13e7ae0c-8a1c-c51f-227b-e9f117c26065.htm">
+        <HelpTOCNode Title="&lt;Main&gt; M&#233;thode " Url="html/6bf42324-dc8f-e59b-c80b-be53db421db5.htm" />
+        <HelpTOCNode Title="Main M&#233;thode " Url="html/55b674d2-c2ec-1f78-dd49-a85407ba8e11.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
